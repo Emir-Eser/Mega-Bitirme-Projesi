@@ -1,0 +1,15 @@
+.gas-invoices-container-css{
+    margin-top: 105px;
+}
+
+.gas-invoices-container-css >h2{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left:100px;
+}
+
+.gas-invoices-css{
+    display: flex;
+    flex-wrap: wrap;
+    gap:50px;
+    margin-left: 50px;
+}

@@ -1,0 +1,139 @@
+.header-css{
+    display: grid;
+    grid-template-columns: 80px 330px 1fr 250px;
+    position: fixed;
+    top:0px;
+    left:0px;
+    right: 0px;
+    height: 65px;
+
+    background-image: linear-gradient(267deg, rgb(6, 96, 105) 0%, rgb(30, 125, 98) 38.49%, rgb(138, 202, 56) 100%);
+}
+
+.header-title-css{
+    display: grid;
+    text-align: left;
+    align-items: center;
+    margin-top: 1px;
+
+    color: rgb(0, 34, 25);
+}
+
+.header-logo-button-css{
+    display: grid;
+    justify-content: center;
+    background-color: rgba(0,0,0,0);
+    border:none;
+    cursor: pointer;
+}
+
+.header-title-button-css{
+
+    background-color: rgba(0,0,0,0);
+    border:none;
+    cursor: pointer;
+
+    font-family: 'Times New Roman', Times, serif;
+
+    font-size: 21px;
+    font-weight: 700;
+
+}
+
+.header-meram-belediyesi-logo-css{
+    width: 60px;
+    margin-right: 10px;
+    margin-left: 10px;
+
+}
+
+
+.header-links-container-css{
+display: grid;
+grid-template-columns: repeat(5,1fr);
+align-items: center;
+}
+
+.header-links-css {
+    text-decoration:none;
+    text-align: center;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+
+    color: white;
+}
+
+.header-account{
+    display: grid;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+.header-login-button-css{
+    background-color: white;
+    color:rgb(6, 96, 105);
+    border: none;
+    border-radius: 5px;
+
+    font-size:16px;
+    font-weight: 600;
+
+    padding:6px 10px;
+
+    cursor:pointer;
+
+}
+
+.header-user-name-css{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    color:white;
+
+
+    
+}
+
+.header-user-balance-css{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+
+    color:white;
+}
+
+.header-logout-button-css{
+    background-color: white;
+    color:rgb(228, 36, 36);
+    border: none;
+    border-radius: 5px;
+
+    font-size:16px;
+    font-weight: 600;
+
+    width: 100px;
+
+    justify-self: center;
+
+    padding:6px 10px;
+
+    cursor:pointer;
+}
+
+.header-account-info-container-css{
+    display: grid;
+    grid-template-columns: 1fr 1.6fr;
+    
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header-account-info-css{
+    display: grid;
+    row-gap:7px ;
+}

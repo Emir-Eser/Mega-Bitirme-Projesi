@@ -1,0 +1,10 @@
+.aaa{
+display: flex;
+
+flex-wrap: wrap;
+
+justify-content: center;
+}
+.bbb{
+    margin: 10px;
+}

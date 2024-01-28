@@ -1,0 +1,15 @@
+.water-invoices-container-css{
+    margin-top: 85px;
+}
+
+.water-invoices-container-css >h2{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left:100px;
+}
+
+.water-invoices-css{
+    display: flex;
+    flex-wrap: wrap;
+    gap:50px;
+    margin-left: 50px;
+}

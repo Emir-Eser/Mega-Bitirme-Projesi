@@ -1,0 +1,15 @@
+.realties-container-css{
+    margin-top: 105px;
+}
+
+.realties-container-css >h2{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left:100px;
+}
+
+.realties-css{
+    display: flex;
+    flex-wrap: wrap;
+    gap:50px;
+    margin-left: 50px;
+}

@@ -1,0 +1,52 @@
+.footer-container-css{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    height: 140px;
+    background-color: rgb(245,245,245);
+    border-top: 4px solid rgb(230,230,230) ;
+}
+
+
+.footer-meram-belediyesi-logo-container-css{
+    display: grid;
+
+}
+
+.footer-meram-belediyesi-logo-css{
+    height: 110px;
+    align-self: center;
+    margin-left: 30px;
+
+}
+
+.footer-meram-belediyesi-contact-us-css{
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    font-family: Arial, Helvetica, sans-serif;
+
+    color:rgb(200,200,200);
+
+}
+
+.footer-contact-us-title-css{
+    display: grid;
+    text-align: center;
+    align-self: center;
+
+    font-size:20px;
+    font-weight: 700;
+}
+
+.footer-contact-us-number-css{
+    text-align: center;
+
+    font-size: 60px;
+
+    font-weight: 900;
+
+}

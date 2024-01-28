@@ -1,0 +1,98 @@
+.invoice-card-css {
+    display: inline-block;
+    margin: 0;
+
+
+    width: 320px;
+    height: 150px;
+
+    background-color: rgb(240, 240, 240);
+
+    border-radius: 20px;
+
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.5);
+
+}
+
+.invoice-card-grid-css {
+    display: inline-grid;
+    grid-template-columns: 100px 1fr;
+    height: 100%;
+    width: 100%;
+}
+
+.invoice-card-logo-container-css {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.invoice-card-koski-logo-css {
+    width: 70px;
+}
+
+
+.invoice-card-mepas-logo-css {
+    width: 90px;
+}
+
+.invoice-card-enerya-logo-css {
+    width: 115px;
+}
+
+.invoice-card-info-grid-css {
+    display: grid;
+    grid-template-rows: 1fr 1fr 40px;
+
+    align-items: center;
+    justify-content: center;
+
+    background-color: rgb(230, 230, 230);
+
+    border-left: 1px solid rgb(200, 200, 200);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+
+}
+
+.subscription-no-css {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+
+    justify-self: center;
+
+}
+
+.invoice-cost-css {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+
+    color: rgb(8, 150, 100);
+
+    justify-self: center;
+}
+
+.invoice-payment-button-container-css {
+
+    text-align: center;
+}
+
+.invoice-payment-button-css {
+    border: none;
+    border-radius: 20px;
+
+    padding: 6px 12px;
+    margin-bottom: 10px;
+
+    color: rgb(245, 245, 245);
+    background-color: rgb(11, 142, 133);
+
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 1);
+
+    cursor: pointer;
+
+}

@@ -1,0 +1,31 @@
+.home-container-css{
+    margin-top: 105px;
+
+
+}
+
+.home-title-css{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+
+
+    margin-left:100px;
+
+    color: rgb(6, 96, 105);
+}
+
+.home-contents-container-css{
+
+    display: flex;
+    flex-wrap: wrap;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+
+    line-height: 30px;
+
+
+    gap: 50px;
+
+    margin-left: 50px;
+}

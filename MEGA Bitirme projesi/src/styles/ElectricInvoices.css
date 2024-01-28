@@ -1,0 +1,15 @@
+.electric-invoices-container-css{
+    margin-top: 105px;
+}
+
+.electric-invoices-container-css >h2{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left:100px;
+}
+
+.electric-invoices-css{
+    display: flex;
+    flex-wrap: wrap;
+    gap:50px;
+    margin-left: 50px;
+}
